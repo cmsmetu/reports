@@ -105,6 +105,31 @@ are used for HCAL measurements for radiation protection. This protective detecto
 acceptance of the ATLAS calorimeters to cover the almost all solid
 angle around the collision point.
 
+\section{The Muon Spectrometer}
+Muon Spectrometer of Atlas is designed to measure the electrical charges and momentum of muons.
+The main difference between electrons and muons is that muons are 200 times more massive.
+Because of their mass and momentum they are able to pass through the calorimeter without being absorbed.
+Differently from CMS, Atlas uses a second set of powerful magnets to bent muons path allowing the charges and momenta to be calculated.
+\section{Data Acquisition and Computing}
+There are nearly one billion proton-proton collisions per second in Atlas. It is not meaningful and
+possible to store all of their to data. To select needed data Atlas uses Trigger System.
+\subsection{Trigger System}
+ 
+Atlases trigger system composed from three levels to reduce 400 million crossings per second to 20
+events per second. Level-I trigger process data from every 25 ns beam crossing interval. The decision
+to keep a data from an event is made less than two microseconds. This level reduce number of events
+to be recorded to 100 000. Level-2 trigger analyse in greater detail and reduce number of events
+to a few thousand per second. And at last Level-3 trigger performed a very detailed analysis to
+reduce events to about 200 events per second. At the and of Level-3 passed events stored on data storage for offline analysis.
+ 
+\subsection{Computing}
+ 
+Atlas make it possible for several petabytes of data recorded, shared and analysed by physicists around
+the world each year. This presents tremendous challenges in both software and hardware.
+There are about 100 000 single-core processors, situated at many different locations around the world,
+communicating via the new global data Grid system.
+
+
 
 
 \end{document}
